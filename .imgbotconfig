@@ -1,0 +1,7 @@
+{
+    "ignoredFiles": [
+        "static/images/vada-profitable/*",
+        "static/images/stats/*",
+        "*.png"
+    ]
+}

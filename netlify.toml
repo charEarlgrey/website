@@ -1,0 +1,40 @@
+[context.deploy-preview]
+    command = "hugo --buildFuture --buildDrafts --gc --minify -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/featured"
+  to = "/categories/featured/"
+
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/pottekkat"
+
+[[redirects]]
+  from = "/linkedin"
+  to = "https://www.linkedin.com/in/realPottekkat/"
+
+[[redirects]]
+  from = "/youtube"
+  to = "https://youtube.com/@realPottekkat"
+
+[[redirects]]
+  from = "/resume"
+  to = "https://drive.google.com/file/d/1NtoLtc5KO9n7UBymoZ9LVg-zNUiiuNaW/view?usp=sharing"
+
+[[redirects]]
+  from = "/twitter"
+  to = "https://twitter.com/realPottekkat"
+
+[[redirects]]
+  from = "/tfjs-object-detection"
+  to = "https://github.com/pottekkat/tfjs-object-detection"
+
+[[redirects]]
+  from = "/misc/js/script.js"
+  to = "https://plausible.io/js/script.js"
+  status = 200
+
+[[redirects]]
+  from = "/misc/api/event"
+  to = "https://plausible.io/api/event"
+  status = 200
